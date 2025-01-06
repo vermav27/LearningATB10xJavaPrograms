@@ -9,6 +9,7 @@ public class Lab005_MultiLineComment {
         In between these block, everything will
         be ignored from execution.
          */
+        System.out.println("This is a multiline comment program");
 
     }
 
