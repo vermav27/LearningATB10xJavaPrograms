@@ -4,6 +4,7 @@ public class Lab024_TSK_IfElse_ForLoop {
 
     public static void main(String[] args) {
 
+        //calculate the number of vowels and consonants in string
         String name = "Pramod";
         int numberOfVowels = 0;
         int numberOfConsonants = 0;

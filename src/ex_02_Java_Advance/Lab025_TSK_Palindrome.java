@@ -6,6 +6,10 @@ public class Lab025_TSK_Palindrome {
 
     public static void main(String[] args) {
 
+        /*
+        * Write a program to reverse a word and identify if it is a palindrome or not
+        */
+
         // Taking input from user
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a word ( It is case sensitive ): ");
