@@ -8,9 +8,9 @@ public class Lab043_TSK_Armstrong {
 
         System.out.print("Enter a number to check if it is a armstrong number or not : ");
         Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
-        int num2 = number;
-        int originalNumber = number;
+        int originalNumber = sc.nextInt();
+        int number_forCalculatingPower = originalNumber;
+        int number = originalNumber;
         double sumOfPowerOfDigit = 0;
         int power = 0;
 
@@ -21,10 +21,10 @@ public class Lab043_TSK_Armstrong {
         }
 
         //Calculating the sum of the power of each digit to calculate armstrong number
-        while(num2 != 0){
-            int digit = num2%10;
+        while(number_forCalculatingPower != 0){
+            int digit = number_forCalculatingPower%10;
             sumOfPowerOfDigit = sumOfPowerOfDigit + (Math.pow(digit,power));
-            num2 = num2/10;
+            number_forCalculatingPower = number_forCalculatingPower/10;
         }
         System.out.println("Number after calculation is : " + sumOfPowerOfDigit);
 
