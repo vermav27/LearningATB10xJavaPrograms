@@ -12,7 +12,7 @@ public class Lab045_TSK_ElectricityBillCalculator {
         double bill = 0;
 
         if(units <= 100){
-            bill = units * 0.50;
+            bill = units * 0.05;
         } else if (units >= 101 && units <= 200) {
             bill = units * 0.75;
         } else if (units >= 201 && units <= 300) {
@@ -21,7 +21,7 @@ public class Lab045_TSK_ElectricityBillCalculator {
             bill = units * 1.50;
         }
 
-        System.out.println("Your bill is : INR " + bill);
+        System.out.println("Your electricity bill is : INR " + bill);
 
     }
 
