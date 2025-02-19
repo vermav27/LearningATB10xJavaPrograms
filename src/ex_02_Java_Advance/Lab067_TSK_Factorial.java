@@ -2,7 +2,7 @@ package ex_02_Java_Advance;
 
 import java.util.Scanner;
 
-public class Lab064_TSK_Factorial {
+public class Lab067_TSK_Factorial {
 
     public static void main(String[] args) {
 
