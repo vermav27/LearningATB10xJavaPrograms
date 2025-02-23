@@ -9,5 +9,8 @@ public class Lab087_StudentClass_Main {
 
         System.out.println("Name of student 1 : " + Student1.name);
         System.out.println("Age of student 1 : " + Student1.age);
+
+        System.out.println("Name of student 2 : " + Student2.name);
+        System.out.println("Age of student 2 : " + Student2.age);
     }
 }
