@@ -6,6 +6,10 @@ public class Lab101_AbstractClass_Main {
         S1.loanOf20k();
         S1.loanOf50k();
 
+        // Father f1 = new Father();
+        // So here father class object cannot be created because ( Father is an abstract class ) for abstract classes objects cannot be created.
+
+
         /*
         * Abstract means "incomplete". So the abstract class contains abstract method or classes means incomplete.
         * So the class which extends the abstract class ( parent class ) will complete the abstract method. ( override the abstract method ).
