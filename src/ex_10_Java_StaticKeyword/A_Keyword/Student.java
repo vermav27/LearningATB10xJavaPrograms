@@ -1,4 +1,4 @@
-package ex_10_Java_StaticKeyword;
+package ex_10_Java_StaticKeyword.A_Keyword;
 
 public class Student {
     int age;

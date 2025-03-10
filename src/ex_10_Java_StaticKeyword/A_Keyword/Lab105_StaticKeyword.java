@@ -1,4 +1,4 @@
-package ex_10_Java_StaticKeyword;
+package ex_10_Java_StaticKeyword.A_Keyword;
 
 public class Lab105_StaticKeyword {
     public static void main(String[] args) {
