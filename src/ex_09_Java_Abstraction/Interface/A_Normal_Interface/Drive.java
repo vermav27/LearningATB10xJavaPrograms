@@ -1,4 +1,4 @@
-package ex_09_Java_Abstraction.Interface;
+package ex_09_Java_Abstraction.Interface.A_Normal_Interface;
 
 public class Drive implements Engine,Brake {
 
