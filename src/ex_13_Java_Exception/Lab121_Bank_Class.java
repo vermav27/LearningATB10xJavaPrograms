@@ -1,6 +1,6 @@
-package ex_13_Java_Exception.Lab121_CustomException;
+package ex_13_Java_Exception;
 
-public class Bank {
+public class Lab121_Bank_Class {
     private String currency;
     private int amount;
 
@@ -20,7 +20,7 @@ public class Bank {
         this.amount = amount;
     }
 
-    public Integer add ( Bank B1){
+    public Integer add ( Lab121_Bank_Class B1){
 
         //Here we are creating our own exception for which we use throw keyword
 
@@ -36,7 +36,7 @@ public class Bank {
         }
     }
 
-    public Bank(int amount_c, String currency_c) {
+    public Lab121_Bank_Class(int amount_c, String currency_c) {
         this.amount = amount_c;
         this.currency = currency_c;
     }
