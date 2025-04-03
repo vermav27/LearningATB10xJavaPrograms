@@ -3,7 +3,7 @@ package ex_15_Java_CollectionFrameWork;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Lab127_List_1 {
+public class Lab127_List {
     public static void main(String[] args) {
 
         //List allows the duplicates
