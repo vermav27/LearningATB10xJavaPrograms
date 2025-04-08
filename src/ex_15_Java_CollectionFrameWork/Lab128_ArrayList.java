@@ -22,8 +22,15 @@ public class Lab128_ArrayList {
         System.out.println("Last index of 500 ? --> " + L1.lastIndexOf(500));
 
         //Print using loop
+        System.out.println("-----Print using for loop-----");
         for (int i = 0 ; i < L1.size() ; i++){
             System.out.println(L1.get(i));
+        }
+
+        //print using foreach
+        System.out.println("-----Print using foreach -----");
+        for(Object o : L1){
+            System.out.println(o);
         }
 
     }
